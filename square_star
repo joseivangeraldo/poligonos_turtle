@@ -1,0 +1,20 @@
+import turtle
+iv = turtle.Turtle()
+
+def square_star(d,a):
+	for i in range(4):
+		iv.forward(d)
+		iv.left(a)
+		print(iv.position())
+##
+## É chamada a função square_star
+##Com o acrescimo de girar 10°
+##Como o circulo tem 360 graus,
+##Cria-se uma repetição de 36 vezes
+##para conseguir fechar o circulo
+		
+for i in range(36):
+	square_star(100,90)
+	iv.left(10)
+
+	
