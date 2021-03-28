@@ -1,3 +1,0 @@
-!pip3 install ColabTurtle
-import ColabTurtle.Turtle as t
-t.initializeTurtle() #### in local aplication don't put this
