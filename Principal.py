@@ -4,7 +4,6 @@
 
 #autor: José Ivan Geraldo da Silva
 #data:27/03/2021
-'''
 #local:Guarulhos-SP
 ###
 import turtle ###importacao da biblioteca grafica turtle
@@ -23,8 +22,8 @@ def square():##funcao square desenha um quadrado
 ###Vamos partir do racicionio que figuras geometricas estao inaceits no cieculo trigonometrico
 ###Entao o circulo tem 360 grais para desenhar uma figura com n ladoa,twteemo de dividir 360 pela qtd de laddia da figura
 ###Ex:Triangulo 3 lados:
-'''360/3.Temos de fazer a inclinacao de 120 graus : t.left(120).Fazendo um loop junto com t.forward,3 vezes
-###
+###360/3.Temos de fazer a inclinacao de 120 graus : t.left(120).Fazendo um loop junto com t.forward,3 vezes
+
 def triangle():
 	for i in range(3):
 		t.forward(100)
